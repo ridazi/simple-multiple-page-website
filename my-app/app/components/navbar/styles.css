@@ -1,0 +1,29 @@
+/* components/Navbar.module.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .navbar Link {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar h1 {
+    font-weight:bold;
+  }
+  
+  
+  

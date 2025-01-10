@@ -1,0 +1,116 @@
+/* components/Contact/style.css */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and page layout */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Contact Section */
+  .contactSection {
+    background-color: #f3f4f6;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Container to center the form */
+  .container {
+    max-width: 600px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .title {
+    font-size: 2rem;
+    color: #1a202c;
+    margin-bottom: 20px;
+  }
+  
+  /* Subtitle styling */
+  .subtitle {
+    font-size: 1.1rem;
+    color: #4a5568;
+    margin-bottom: 30px;
+  }
+  
+  /* Form styling */
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Input field styling */
+  .input,
+  .textarea {
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 100%;
+    margin: 0;
+    background-color: #f9fafb;
+    transition: border 0.3s ease;
+  }
+  
+  .input:focus,
+  .textarea:focus {
+    border-color: #4c51bf;
+    outline: none;
+  }
+  
+  /* Textarea styling */
+  .textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  /* Button styling */
+  .submitButton {
+    background-color: #4c51bf;
+    color: white;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #434190;
+  }
+  
+  /* Small screen responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  
+    .title {
+      font-size: 1.75rem;
+    }
+  
+    .subtitle {
+      font-size: 1rem;
+    }
+  }
+  
